@@ -27,7 +27,7 @@ public class AppCardDeliveryTest {
         $("[data-test-id='date'] input").sendKeys(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.DELETE);
         $("[data-test-id='date'] input").setValue(plannigDate);
         $("[data-test-id='name'] input").setValue("Иванов Иван");
-        $("[data-test-id='phone'] input").setValue("+799999999990");
+        $("[data-test-id='phone'] input").setValue("+79999999999");
         $("[data-test-id='agreement']").click();
         $("button.button").click();
         $(" .notification__content")
